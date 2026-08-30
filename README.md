@@ -170,25 +170,41 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 <br>
 
-<!-- GitHub Stats -->
+<!-- GitHub Statistics -->
 
-<a href="https://github.com/tanaysarda">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/stats-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./profile/stats-light.svg"
+  />
   <img
     height="180"
-    src="https://github-readme-stats.vercel.app/api?username=tanaysarda&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=EF93C4&icon_color=FF69B4&text_color=F8BBD0&bg_color=0D1117&cache_seconds=86400"
+    src="./profile/stats-light.svg"
     alt="Tanay's GitHub statistics"
   />
-</a>
+</picture>
 
 <!-- Top Languages -->
 
-<a href="https://github.com/tanaysarda">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/top-langs-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./profile/top-langs-light.svg"
+  />
   <img
     height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanaysarda&layout=compact&langs_count=8&hide_border=true&title_color=EF93C4&text_color=F8BBD0&bg_color=0D1117&cache_seconds=86400"
+    src="./profile/top-langs-light.svg"
     alt="Tanay's top languages"
   />
-</a>
+</picture>
 
 <br><br>
 
@@ -204,11 +220,21 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 <!-- Activity Graph -->
 
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=tanaysarda&bg_color=0D1117&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&hide_border=true"
-  width="95%"
-  alt="GitHub activity graph"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/tanaysarda/tanaysarda/output/activity-graph-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/tanaysarda/tanaysarda/output/activity-graph-light.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/tanaysarda/tanaysarda/output/activity-graph-light.svg"
+    width="95%"
+    alt="GitHub activity graph"
+  />
+</picture>
 
 </div>
 
@@ -243,12 +269,12 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 </div>
 
-
-<!-- ========================================================= -->
-<!--                  CONNECT WITH ME                          -->
-<!-- ========================================================= -->
-
 <br><br>
+
+
+<!-- ========================================================= -->
+<!--                    CONNECT WITH ME                        -->
+<!-- ========================================================= -->
 
 <div align="center">
 
@@ -277,8 +303,6 @@ I'm a passionate developer who loves turning ideas into **real-world application
   />
 </a>
 
-<br><br>
-
 <a href="mailto:tanayharshitsarda@gmail.com">
   <img
     src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EF93C4"
@@ -292,9 +316,9 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 If you like what I build, consider giving my repositories a ⭐
 
-<br>
-
 </div>
+
+<br>
 
 
 <!-- ========================================================= -->
