@@ -1,0 +1,57 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate dark GitHub stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&title_color=EF93C4&icon_color=FF69B4&text_color=F8BBD0&bg_color=0D1117
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light GitHub stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&title_color=FF69B4&icon_color=EF93C4&text_color=444444&bg_color=FFF5FA
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate dark top languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=7&hide_border=true&title_color=EF93C4&text_color=F8BBD0&bg_color=0D1117
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light top languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=7&hide_border=true&title_color=FF69B4&text_color=444444&bg_color=FFF5FA
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update GitHub stats cards" || exit 0
+          git push
