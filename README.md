@@ -71,6 +71,7 @@
 
 <table>
 <tr>
+
 <td width="65%" align="left" valign="middle">
 
 ### Hey! I'm Tanay 👋
@@ -95,14 +96,13 @@ I'm a passionate developer who loves turning ideas into **real-world application
 <td width="35%" align="center">
 
 <img
-  src="https://github.com/tanaysarda.png"
+  src="https://raw.githubusercontent.com/tanaysarda/tanaysarda/main/1CR23CD059_TANAYSARDA_PASSPORTSIZEPICTURE.jpeg"
   width="220"
-  height="220"
-  style="border-radius:50%;"
   alt="Tanay Sarda"
 />
 
 </td>
+
 </tr>
 </table>
 
@@ -112,7 +112,7 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 
 <!-- ========================================================= -->
-<!--                       TECH STACK                         -->
+<!--                       TECH STACK                          -->
 <!-- ========================================================= -->
 
 <div align="center">
@@ -124,7 +124,7 @@ I'm a passionate developer who loves turning ideas into **real-world application
 ### 👨‍💻 Languages
 
 <img
-  src="https://skillicons.dev/icons?i=java,python,c,cpp,javascript,typescript,html,css"
+  src="https://skillicons.dev/icons?i=java,python,c,cpp,javascript,html,css"
   alt="Programming Languages"
 />
 
@@ -133,7 +133,7 @@ I'm a passionate developer who loves turning ideas into **real-world application
 ### ⚡ Frameworks & Libraries
 
 <img
-  src="https://skillicons.dev/icons?i=spring,react,nodejs,express,bootstrap,tailwind"
+  src="https://skillicons.dev/icons?i=spring,react,nodejs,express,tailwind"
   alt="Frameworks and Libraries"
 />
 
@@ -142,7 +142,7 @@ I'm a passionate developer who loves turning ideas into **real-world application
 ### 🗄️ Databases & Cloud
 
 <img
-  src="https://skillicons.dev/icons?i=mysql,mongodb,postgresql,firebase,aws"
+  src="https://skillicons.dev/icons?i=mysql,mongodb,aws"
   alt="Databases and Cloud"
 />
 
@@ -151,7 +151,7 @@ I'm a passionate developer who loves turning ideas into **real-world application
 ### 🔧 Tools & Platforms
 
 <img
-  src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker,linux"
+  src="https://skillicons.dev/icons?i=git,github,vscode,cursor,linux"
   alt="Tools and Platforms"
 />
 
@@ -170,31 +170,39 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 <br>
 
-<a href="https://github.com/tanaysarda">
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=tanaysarda&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=EF93C4&icon_color=FF69B4&text_color=F8BBD0&bg_color=0D1117"
-    alt="Tanay's GitHub statistics"
-  />
-</a>
+<!-- GitHub Stats -->
 
 <a href="https://github.com/tanaysarda">
   <img
     height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanaysarda&layout=compact&langs_count=8&hide_border=true&title_color=EF93C4&text_color=F8BBD0&bg_color=0D1117"
+    src="https://github-readme-stats.vercel.app/api?username=tanaysarda&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=EF93C4&icon_color=FF69B4&text_color=F8BBD0&bg_color=0D1117&cache_seconds=86400"
+    alt="Tanay's GitHub statistics"
+  />
+</a>
+
+<!-- Top Languages -->
+
+<a href="https://github.com/tanaysarda">
+  <img
+    height="180"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanaysarda&layout=compact&langs_count=8&hide_border=true&title_color=EF93C4&text_color=F8BBD0&bg_color=0D1117&cache_seconds=86400"
     alt="Tanay's top languages"
   />
 </a>
 
 <br><br>
 
+<!-- GitHub Streak -->
+
 <img
-  src="https://streak-stats.demolab.com?user=tanaysarda&hide_border=true&background=0D1117&ring=EF93C4&fire=FF69B4&currStreakLabel=F8BBD0&sideLabels=F8BBD0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=AAAAAA"
+  src="https://streak-stats.demolab.com/?user=tanaysarda&hide_border=true&background=0D1117&ring=EF93C4&fire=FF69B4&currStreakLabel=F8BBD0&sideLabels=F8BBD0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=AAAAAA"
   width="75%"
   alt="GitHub contribution streak"
 />
 
 <br><br>
+
+<!-- Activity Graph -->
 
 <img
   src="https://github-readme-activity-graph.vercel.app/graph?username=tanaysarda&bg_color=0D1117&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&hide_border=true"
@@ -208,7 +216,7 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 
 <!-- ========================================================= -->
-<!--                  CONTRIBUTION SNAKE                      -->
+<!--                  CONTRIBUTION SNAKE                       -->
 <!-- ========================================================= -->
 
 <div align="center">
@@ -235,51 +243,12 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 </div>
 
+
 <!-- ========================================================= -->
-<!-- IMPORTANT: Create .github/workflows/snake.yml            -->
+<!--                  CONNECT WITH ME                          -->
 <!-- ========================================================= -->
-
-<!--
-
-name: Generate Contribution Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
-    steps:
-      - name: Generate Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: tanaysarda
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push Snake to Output Branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-        env:
-          GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-
--->
-
 
 <br><br>
-
-
-<!-- ========================================================= -->
-<!--                       CONNECT                            -->
-<!-- ========================================================= -->
 
 <div align="center">
 
@@ -287,46 +256,32 @@ jobs:
 
 <br>
 
-<a href="https://www.linkedin.com/in/tanaysarda">
+<a href="https://www.linkedin.com/in/tanay-sarda/">
   <img
     src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=EF93C4"
     alt="LinkedIn"
   />
 </a>
 
-<a href="https://x.com/tanaysarda">
-  <img
-    src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=F8BBD0"
-    alt="X"
-  />
-</a>
-
-<a href="https://www.instagram.com/tanaysarda">
+<a href="https://www.instagram.com/un.not.tanayyy/">
   <img
     src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=FF69B4"
     alt="Instagram"
   />
 </a>
 
+<a href="https://leetcode.com/u/tanayharshitsarda/">
+  <img
+    src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=F8BBD0"
+    alt="LeetCode"
+  />
+</a>
+
 <br><br>
 
-<a href="https://www.tiktok.com/@tanaysarda">
+<a href="mailto:tanayharshitsarda@gmail.com">
   <img
-    src="https://img.shields.io/badge/TikTok-0D1117?style=for-the-badge&logo=tiktok&logoColor=EF93C4"
-    alt="TikTok"
-  />
-</a>
-
-<a href="https://www.youtube.com/@tanaysarda">
-  <img
-    src="https://img.shields.io/badge/YouTube-0D1117?style=for-the-badge&logo=youtube&logoColor=FF69B4"
-    alt="YouTube"
-  />
-</a>
-
-<a href="mailto:tanaysarda@example.com">
-  <img
-    src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=F8BBD0"
+    src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EF93C4"
     alt="Email"
   />
 </a>
