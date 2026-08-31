@@ -316,27 +316,22 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 If you like what I build, consider giving my repositories a ⭐
 
-</div>
-
 <br>
 
+</div>
 
 <!-- ========================================================= -->
 <!--                         FOOTER                            -->
 <!-- ========================================================= -->
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0D1117&fontColor=EF93C4&text=%F0%9F%91%8B%20Keep%20Building%20%26%20Keep%20Growing!&fontSize=20&fontAlignY=65"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=EF93C4&fontColor=FFFFFF&text=%F0%9F%91%8B%20Keep%20Building%20%26%20Keep%20Growing!&fontSize=20&fontAlignY=65"
-  />
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=EF93C4&fontColor=FFFFFF&text=%F0%9F%91%8B%20Keep%20Building%20%26%20Keep%20Growing!&fontSize=20&fontAlignY=65"
-    width="100%"
-    alt="Footer"
-  />
-</picture>
+<br>
+
+<div align="center">
+
+<h3>🌸 Keep Building • Keep Learning • Keep Growing 🌸</h3>
+
+<p>
+  <i>Thanks for stopping by my profile! 💗</i>
+</p>
+
+</div>
