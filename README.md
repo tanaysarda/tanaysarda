@@ -151,7 +151,7 @@ I'm a passionate developer who loves turning ideas into **real-world application
 ### 🔧 Tools & Platforms
 
 <img
-  src="https://skillicons.dev/icons?i=git,github,vscode,cursor,linux"
+  src="https://skillicons.dev/icons?i=git,github,vscode,linux"
   alt="Tools and Platforms"
 />
 
