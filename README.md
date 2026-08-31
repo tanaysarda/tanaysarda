@@ -218,27 +218,6 @@ I'm a passionate developer who loves turning ideas into **real-world application
 
 <br><br>
 
-<!-- Activity Graph -->
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/tanaysarda/tanaysarda/output/activity-graph-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/tanaysarda/tanaysarda/output/activity-graph-light.svg"
-  />
-  <img
-    src="https://raw.githubusercontent.com/tanaysarda/tanaysarda/output/activity-graph-light.svg"
-    width="95%"
-    alt="GitHub activity graph"
-  />
-</picture>
-
-</div>
-
-<br><br>
 
 
 <!-- ========================================================= -->
