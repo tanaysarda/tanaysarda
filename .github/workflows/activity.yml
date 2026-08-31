@@ -1,0 +1,41 @@
+name: Update Activity Graph
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate dark activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: tanaysarda
+          options: bg_color=0D1117&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&hide_border=true
+          output_path: dist/activity-graph-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: tanaysarda
+          options: bg_color=FFF5FA&color=444444&line=FF69B4&point=EF93C4&area=true&hide_border=true
+          output_path: dist/activity-graph-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push activity graphs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          build_dir: dist
+          target_branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
